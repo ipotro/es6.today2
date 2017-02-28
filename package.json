@@ -5,6 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
+    "precommit": "npm t",
     "test": "sass-lint --config .scss-lint.yml --verbose --no-exit"
   },
   "repository": {
@@ -18,13 +19,14 @@
     "Blog",
     "Book"
   ],
-  "author": "rogues",
+  "author": "rogues, expert FULL STACK developer",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ro9ues/es6.today/issues"
   },
   "homepage": "https://github.com/ro9ues/es6.today#readme",
   "devDependencies": {
+    "husky": "^0.13.1",
     "node-sass": "^4.5.0",
     "sass-lint": "^1.10.2"
   }
